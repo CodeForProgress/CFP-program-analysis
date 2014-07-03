@@ -1,4 +1,10 @@
-var http = require('http');
+var http = require('http'),
+    mongojs = require("mongojs");
+
+var uri = "mongodb://aliya:Popcorn13@ds035348.mongolab.com:35348/cfp_program_evaluation",
+    db = mongojs.connect(uri, ["badges_self_report"]);
+
+
 http.createServer(function (req, res) {
 	res.writeHead(200, {'Content-Type': 'text/plain'});
 	res.end('Up and running.\n');

@@ -3,6 +3,9 @@ Code for Progress program analysis and visualization tools
 
 This node.js app makes use of the D3.js library to visualize quantative and qualitative data related to the metrics of success set for the 2014 Code for Progress fellowship program.
 
+The stack uses node.js, Express, MongoDB, and Jade.
+
+
 
 Why a node.js app for a program that teaches Python/Django?
 -----------------------------------------------------------
